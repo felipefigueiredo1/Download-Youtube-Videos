@@ -11,7 +11,7 @@
             try {
                 header("Location: ".$file_url);
             } catch(Exception $e) {
-                echo "Não foi possível localizar o link".$e->getMessage();
+                echo "Could not find the link ".$e->getMessage();
             }
         }
     ?>
